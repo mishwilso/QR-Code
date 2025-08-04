@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+}
+
 body {
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--Slate-300);
     align-items: center;
     justify-content: center;
     display: flex;
@@ -21,10 +28,10 @@ body {
 }
 
 .card {
-    background-color: hsl(0, 0%, 100%);
-    padding: 15px;
+    background-color: var(--white);
+    padding: clamp(1rem, 4vw, 1rem);
     border-radius: 16px;
-    max-width: 320px;
+    max-width: 20em;
     width: 90%;
     text-align: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -39,15 +46,15 @@ body {
     margin-top: 16px;
     font-weight: 700;
     font-style: normal;
-    font-size: 18px;
-    color: hsl(218, 44%, 22%);
+    font-size: 1em;
+    color: var(--Slate-900);
 }
 
 .card p {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1em;
     font-style: normal;
-    color: hsl(216, 15%, 48%);
+    color: var(--Slate-500);
     margin: 12px 0px;
 }
 
@@ -55,11 +62,11 @@ footer {
   margin-top: 12px;
   text-align: center;
   font-size: 10px;
-  color: hsl(220, 15%, 55%);
+  color: var(--Slate-500);
 }
 
 footer a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Slate-900);
   text-decoration: none;
   font-weight: 400;
 }
@@ -69,23 +76,24 @@ footer a:focus {
   text-decoration: underline;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     .card {
-        max-width: 350px;
+        max-width: 20em;
         padding: 18px;
+
     }   
 
     .card h1 {
-        font-size: 20px;
+        font-size: 1.3em;
     }
 
     .card p {
-        font-size: 16px;
+        font-size: 1em;
     }
 
     .footer {
-        font-size: 11px;
+        font-size: 1em;
     }
 
 
-}
+} */
