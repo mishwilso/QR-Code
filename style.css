@@ -9,6 +9,7 @@
     --Slate-300: hsl(212, 45%, 89%);
     --Slate-500: hsl(216, 15%, 48%);
     --Slate-900: hsl(218, 44%, 22%);
+    --shadow: rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -34,7 +35,7 @@ body {
     max-width: 20em;
     width: 90%;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px var(--shadow);
 }
 
 .qr-image {
@@ -43,7 +44,7 @@ body {
 }
 
 .card h1 {
-    margin-top: 16px;
+    margin-top: 1em;
     font-weight: 700;
     font-style: normal;
     font-size: 1em;
@@ -55,11 +56,11 @@ body {
     font-size: 1em;
     font-style: normal;
     color: var(--Slate-500);
-    margin: 12px 0px;
+    margin: 1em 0px;
 }
 
 footer {
-  margin-top: 12px;
+  margin-top: 1em;
   text-align: center;
   font-size: 10px;
   color: var(--Slate-500);
