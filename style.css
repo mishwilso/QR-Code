@@ -62,7 +62,7 @@ body {
 footer {
   margin-top: 1em;
   text-align: center;
-  font-size: 10px;
+  font-size: .7em;
   color: var(--Slate-500);
 }
 
