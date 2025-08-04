@@ -6,10 +6,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Screenshot](#screenshot)
 - [Built with](#built-with)
+- [Live Site](#live-site)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-## Overview
 
 ### Screenshot
 
@@ -22,6 +21,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+
+### Live Site
+- Live Site URL - [mish-portfolio.net/QR-Code/](https://mish-portfolio.net/QR-Code/)
 
 ## Author
 
